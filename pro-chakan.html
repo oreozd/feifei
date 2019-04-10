@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Generator" content="EditPlus®">
+		<title>案例查看</title>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="layui/css/layui.css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<script src="layui/layui.all.js"></script>
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<style>
+			.container{
+				width:1007px;
+				min-height:800px;
+				margin:auto;
+				background-color:#fff;
+				padding:0;
+				border-radius: 5px;
+			}
+			a{
+				text-decoration: none;
+			}
+			.title{
+				width:987px;
+				padding:10px 22px;
+				height:89px;
+				margin-bottom:25px;
+				border-bottom: 2px solid #eee;
+			}
+			.search{
+				background-color: #fff;
+			}
+			.icon{
+				width:80px;
+				height:79px;
+				background-color:lightcoral;
+				float:left;
+				border-radius: 10px;
+			}
+			.info{
+				width:600px;
+				height:62px;
+				padding:10px 15px;
+				color:#9D9D9D;
+				font-weight:400;
+				float:left;
+			}
+			.info h2{
+				font-size:18px;
+				margin-bottom:10px; 
+				margin-top:0; 
+				font-weight:400;
+			}
+			.info h3{
+				font-size:16px;
+				margin:0; 
+			}
+			.xiangqing{
+				width:987px;
+				min-height:300px;
+				margin-bottom:10px;
+			} 
+			.jians{
+				min-height:50px;
+				border:1px solid #eee;
+			}
+			.buz{
+				min-height:100px;
+				border:1px solid #eee;
+			}
+			.fuj{
+				min-height:0px;
+				text-align: right;
+			}
+			.p{
+				color:#fff;
+				font-size:18px;
+				line-height:38px;
+				height:38px;
+				padding-left:10px;
+				/* background-color:rgba(220,227,241,.79); */
+				border-left:10px solid #557bb6;
+			}
+			.fontstyle{
+				font-size:16px;
+				color:#557bb6;
+				margin:10px 0 0 10px;
+			}
+			.resource{
+			   text-align: right;
+			   padding-right:200px;
+			}
+			.pinglunq{
+				width:987px;
+				min-height:100px;
+			}
+			.evalutebtn{
+				float:right;
+				width:100px;
+				height:40px;
+				font-size:16px;
+				line-height:40px;
+				color:#fff;
+				background-color:#557bb6;
+				text-align: center;
+				border-radius: 5px;
+				margin-top:-10px;
+			}
+			.layui-btn{
+				background-color: #009688;
+				margin-right:-30px;
+			}
+			.userinfo{
+				height:70px;
+				padding-bottom:10px;
+				border-bottom:1px solid #cfdbf5;
+			}
+		  
+			/* 评论区样式 */
+			.evalute table {
+				margin: 20px auto;
+				width: 90%;
+				border-radius: 5px;
+				border-collapse: collapse;
+				border-bottom: 1px solid #9D9D9D;
+			}
+			.evalute table:hover{
+				background-color: #eee;
+				border-bottom: 1px solid #eee;
+			}
+			.evalute table tr td {
+				height:50px;
+			}
+		  
+			.evalute .e-name a {
+				color: #9D9D9D;
+				font-size: 16px;
+				padding-left: 15px;
+			}
+		  
+			.evalute .e-name a:hover {
+				color: red;
+			}
+		  
+			.evalute .e-time {
+				text-align: right;
+				color: #9D9D9D;
+				font-size: 14px;
+				padding-right: 50px;
+			}
+			.evalute .e-action {
+				text-align: right;
+				color: #9D9D9D;
+				font-size: 14px;
+				padding-right: 50px;
+			}
+			.e-action .layui-icon:hover{
+				color:lightcoral;
+			}
+			.evalutebtn{
+				background-color: #009688;
+			}
+			.evalutebtn a{
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div class="container">
+			<div class="search">
+				<span class="layui-breadcrumb">
+					<a href="index.html">首页</a>
+					<a href="anli.html">项目</a>
+					<a><cite>项目详情</cite></a>
+				</span>
+			</div>
+			
+			<div class="content">
+				<div class="title">
+					<div class="icon">图标位置</div>
+					<div class="info">
+						<h2>案例1 word的基本操作</h2>
+						<h3>作者/2018/8/15</h3>
+
+					</div>
+				</div>
+				<div class="xiangqing">
+					
+					<blockquote class="layui-elem-quote">具体说明</blockquote>
+					<p class="fontstyle">简述:</p>
+					<div class="jians"></div>
+					<p class="fontstyle">步骤:</p>
+					<div class="buz"></div>
+					<p class="fontstyle resource">附件:</p>
+					<div class="fuj"></div>
+				</div>
+				<div class="pinglunq">
+					<blockquote class="layui-elem-quote">评论区
+						<span class="evalutebtn">
+							<a href="evluate.html">我要评论</a>
+						</span>
+					</blockquote>
+
+					<div class="evalute">
+						<table>
+							<tr>
+								<td class="e-name"><a href="#">150806242</a></td>
+								<td colspan="2" class="e-time">2018-12-24</td>
+							</tr>
+							<tr>
+								<td colspan="2" class="e-content">评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容评论内容</td>
+								<td class="e-action" style="text-align:right;">
+									<a href="#">
+										<i class="layui-icon layui-icon-star" style="font-size: 30px; color: #9D9D9D;"></i>
+									</a>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div id="footer"></div>
+		<script>
+			$(document).ready(function() {
+				$("#footer").load("footer.html");
+				// 页面头部加载完毕
+				$("#header").load("header.html", function() {
+					var userInfo=header.getElementsByTagName("span")[1];
+					var username = sessionStorage.getItem("username");
+					userInfo.innerHTML=username;
+					
+					//给头部用户信息绑定事件
+					userInfo.onmouseenter = function() {
+						document.getElementById("user-detail").style.visibility = "visible";
+					}
+					var contentbox = document.getElementsByClassName("container")[0];
+					contentbox.onclick = function() {
+						//alert("被点击");
+						document.getElementById("user-detail").style.visibility = "hidden";
+					}
+				});
+			});
+		</script>
+		<script src="layui/layui.all.js"></script>
+	</body>
+</html>
